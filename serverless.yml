@@ -1,4 +1,3 @@
-org: sandipsandipdas5
 app: demo-sample-app
 service: demo-sample-app
 frameworkVersion: '3'
