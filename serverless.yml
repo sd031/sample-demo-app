@@ -1,0 +1,14 @@
+org: sandipsandipdas5
+app: demo-sample-app
+service: demo-sample-app
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  api:
+    handler: handler.handler
+    events:
+      - httpApi: '*'
